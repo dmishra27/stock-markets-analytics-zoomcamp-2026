@@ -1,4 +1,4 @@
-# Final Project: BoE Statement Tone -> UK Market Reaction Predictor
+﻿# Final Project: BoE Statement Tone -> UK Market Reaction Predictor
 
 ## Overview
 
@@ -12,24 +12,24 @@ A retrieval-based analysis tool that:
 
 ## Project Structure
 
-\\\
+```
 final-project/
-├── notebooks/        # Exploration and analysis notebooks
-├── src/               # Reusable Python modules (data pulls, models, retrieval logic)
-├── data/
-│   ├── raw/           # Unmodified source data (ONS, BoE, market data)
-│   └── processed/     # Cleaned/feature-engineered data
-├── models/            # Saved model artifacts
-├── docs/              # Write-up, architecture notes, diagrams
-└── tests/             # Unit tests
-\\\
+â”œâ”€â”€ notebooks/        # Exploration and analysis notebooks
+â”œâ”€â”€ src/               # Reusable Python modules (data pulls, models, retrieval logic)
+â”œâ”€â”€ data/
+â”‚   â”œâ”€â”€ raw/           # Unmodified source data (ONS, BoE, market data)
+â”‚   â””â”€â”€ processed/     # Cleaned/feature-engineered data
+â”œâ”€â”€ models/            # Saved model artifacts
+â”œâ”€â”€ docs/              # Write-up, architecture notes, diagrams
+â””â”€â”€ tests/             # Unit tests
+```
 
 ## Data Sources
 
-- **Macro data**: ONS (Office for National Statistics) — inflation, unemployment, wages, GDP
-- **BoE statements**: Bank of England — MPC minutes, statements, speeches
-- **Market data**: yfinance — gilt yields, FTSE 100, GBP/USD
+- **Macro data**: ONS (Office for National Statistics) â€” inflation, unemployment, wages, GDP
+- **BoE statements**: Bank of England â€” MPC minutes, statements, speeches
+- **Market data**: yfinance â€” gilt yields, FTSE 100, GBP/USD
 
 ## Status
 
-_Work in progress — see docs/ for design notes._
+_Work in progress â€” see docs/ for design notes._
