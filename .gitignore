@@ -1,0 +1,21 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Environments
+.env
+.venv/
+env/
+
+# Data (avoid committing large/raw data files)
+*.csv
+*.parquet
+!**/data/.gitkeep
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter
+*.ipynb_checkpoints
